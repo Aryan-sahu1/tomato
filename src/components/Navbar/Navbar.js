@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import {assets} from '../../assets/assets/assets'
 const Navbar = () => {
-    const [menu,setMenu]= useState("menu");
+    const [menu,setMenu]= useState("home");
 
 
     return (
@@ -17,7 +17,7 @@ const Navbar = () => {
                 </ul>
                 <div className="navbar-right">
                     <img src={assets.search_icon} alt="" />
-                    <div className="navbar-search0icon">
+                    <div className="navbar-search-icon">
                         <img src={assets.basket_icon} alt="" />
                         <div className="dot"></div>
                     </div>
