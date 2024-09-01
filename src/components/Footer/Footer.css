@@ -47,7 +47,7 @@ cursor: pointer;
         flex-direction: column;
         grid-area: 35px;
     }
-    .footer.copyright{
+    .footer-copyright{
         text-align: center;
     }
     
